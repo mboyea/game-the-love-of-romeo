@@ -8,7 +8,7 @@ This is a template for building a C++ application using [GCC] as a compiler, [GD
 * Fork this repository & rename it to your project's name.
 * Clone the forked repository to your computer.
 
-From here, you're ready to devlelop your project.
+From here, you're ready to develop your project.
 
 ### Debug builds
 Use the Run & Debug features of Visual Studio Code.
