@@ -1,7 +1,5 @@
 VS Code C++ Template
 ===
-Template for C++ applications in Visual Studio Code
----
 This is a template for building a C++ application using [GCC] as a compiler, [GDB] as a debugger, and [Visual Studio Code] as an IDE.
 
 ### To use this template
