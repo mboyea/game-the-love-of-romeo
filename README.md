@@ -3,6 +3,7 @@ VS Code C++ Template
 This is a template for building a C++ application using [GCC] as a compiler, [GDB] as a debugger, and [Visual Studio Code] as an IDE.
 
 ### To use this template
+* [Install Visual Studio Code](https://code.visualstudio.com/download)
 * [Install GCC & GDB](https://code.visualstudio.com/docs/cpp/config-mingw#_prerequisites) (make sure to link in system PATH)
 * Fork this repository & rename it to your project's name.
 * Clone the forked repository to your computer.
