@@ -1,0 +1,27 @@
+{
+  "tasks": [
+		{
+			"type": "cppbuild",
+			"label": "g++ project dev build",
+			"command": "g++.exe",
+			"args": [
+        "-fdiagnostics-color=always",
+        "-g",
+        "${workspaceFolder}/src/*.cpp",
+        "-o",
+        "${workspaceFolder}/debug/main.exe"
+			],
+			"options": {
+        "cwd": "${workspaceFolder}\\debug"
+			},
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+		}
+  ],
+  "version": "2.0.0"
+}
