@@ -1,27 +1,35 @@
-VS Code C++ Template
+The Love of Romeo
 ===
-This is a template for building a C++ application using [GCC] as a compiler, [GDB] as a debugger, and [Visual Studio Code] as an IDE.
+A simple C++ SDL2 game.
+---
+This is a 2D game built using nothing but C++ and SDL2. It is an English class project from highschool. It is based upon the Shakespeare play, Romeo & Juliet.
 
-### To use this template
-* [Install Visual Studio Code](https://code.visualstudio.com/download)
-* [Install GCC & GDB](https://code.visualstudio.com/docs/cpp/config-mingw#_prerequisites) (make sure to link in system PATH)
-* Fork this repository & rename it to your project's name.
-* Clone the forked repository to your computer.
+### Install on Windows
+* [Install 7-Zip](https://7-zip.org/download.html).
+* [Install Git Bash](https://git-scm.com/download/win); make sure to choose "Run Git from the Windows Command Prompt" during installation. This should result in a MINGW64 Bash installation that can access your Windows PATH while having access to Linux commands (ie. the `find` command).
+* Install GCC. In the directory `C:\`, download and unzip [MinGW x86_64-XX.X.X-release-win32-seh-msvcrt-rt_vXX-revX.7z](https://github.com/niXman/mingw-builds-binaries/releases); the location of `g++.exe` should be `C:\mingw64\bin\g++.exe`.
+* Add `C:\mingw64\bin` to the Windows Environment Variable [PATH](https://www.computerhope.com/issues/ch000549.htm).
+* Install [Make for Windows](https://gnuwin32.sourceforge.net/packages/make.htm).
+* Add `C:\Program Files (x86)\GnuWin32\bin\` to the Windows Environment Variable [PATH](https://www.computerhope.com/issues/ch000549.htm).
+* [Clone this repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository) to a directory on your computer. That directory will be referred to as `root`.
+* Create directory `root/lib`.
+* Install SDL2. In the directory `root/lib`, download and unzip the latest stable buxfix release from the following dependencies: [SDL2-devel-X.XX.X-mingw.zip](https://github.com/libsdl-org/SDL/releases), [SDL2_image-devel-X.XX.X-mingw.zip](https://github.com/libsdl-org/SDL_image/releases), [SDL2_mixer-devel-X.XX.X-mingw.zip](https://github.com/libsdl-org/SDL_mixer/releases), & [SDL2_ttf-devel-X.XX.X-mingw.zip](https://github.com/libsdl-org/SDL_ttf/releases).
 
-From here, you're ready to develop your project.
+From here, everything should be installed to compile & run this software. Note that the Makefile assumes you want to build this with x86_64 SDL.
 
-### Debug builds
-Use the Run & Debug features of Visual Studio Code.
+### Install on Arch Linux
+* [Clone this repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository) to a directory on your computer. That directory will be referred to as `root`.
+* [Install sdl2 sdl2_image sdl2_mixer sdl2_ttf](https://wiki.archlinux.org/title/SDL).
 
-### Release builds
-[TODO](https://bytes.usc.edu/cs104/wiki/gcc/)
+From here, everything should be installed to compile & run this software. Isn't Linux great?
 
-### Linking external libraries
-[TODO](https://code.visualstudio.com/docs/cpp/config-mingw#_cc-configurations)
+### Compile & Run Scripts
+To run a script, open a Bash (or equivalent) terminal within `root` and type the command.
 
-### To contribute to this template
-This template doesn't support user contributions right now.
+| command | description |
+|:----------- |:----------- |
+| `make` | compile, link, and run the program |
+| `make clean` | remove all compiled files |
 
-[Visual Studio Code]: https://code.visualstudio.com/
-[GDB]: https://www.sourceware.org/gdb/
-[GCC]: https://gcc.gnu.org/
+### Contribute
+Unfortunately, this project doesn't support community contributions right now. Feel free to fork, but be sure to read the license.
