@@ -32,7 +32,7 @@ endif
 CXX := g++
 CXXFLAGS := -std=c++17 -g# -Wall
 LDFLAGS := $(addprefix -L,$(LIB_LIB_DIRS))
-LDLIBS := $(addprefix -l,sfml-main sfml-graphics sfml-audio sfml-window sfml-system opengl32 winmm gdi32)
+LDLIBS := $(addprefix -l,sfml-graphics sfml-audio sfml-window sfml-system)
 
 # target files
 EXE_NAME := Game
