@@ -4,6 +4,12 @@ A simple C++ SFML game.
 ---
 This is the second game I built with C++. Its only library dependency is SFML. It is an English class project from highschool, completed on 2019/09/30. It is based upon the Shakespeare play, Romeo & Juliet.
 
+Special thank-you to Tony Sangwin for game art and inspiration.
+
+![Screenshot of the gameplay.](img/game-screen.png)
+
+![Screenshot of the terminal.](img/terminal-screen.png)
+
 ### Install on Windows
 * [Install 7-Zip](https://7-zip.org/download.html).
 * [Install Git Bash](https://git-scm.com/download/win); make sure to choose "Run Git from the Windows Command Prompt" during installation. This should result in a MINGW64 Bash installation that can access your Windows PATH while having access to Linux commands (ie. the `find` command).
