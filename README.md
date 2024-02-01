@@ -2,7 +2,7 @@ The Love of Romeo
 ===
 A simple C++ SFML game.
 ---
-This is the second game I built with C++. Its only library dependency is SFML. It is an English class project from highschool, completed on 2019/09/30. It is based upon the Shakespeare play, Romeo & Juliet.
+This game is an English class project from highschool, completed on 2019/09/30. It is based upon the Shakespeare play, Romeo & Juliet. Its only library dependency is SFML.
 
 ### Install on Windows
 * [Install 7-Zip](https://7-zip.org/download.html).
